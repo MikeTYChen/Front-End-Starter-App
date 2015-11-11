@@ -1,0 +1,18 @@
+{
+  "name": "front-end-starter-kit",
+  "version": "1.0.0",
+  "description": "Starter Kit for quickly creating static websites",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Chen",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-ejs": "^1.2.1",
+    "gulp-sass": "^2.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7"
+  }
+}

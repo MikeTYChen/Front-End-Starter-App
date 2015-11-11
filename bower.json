@@ -1,0 +1,20 @@
+{
+  "name": "front-end-starter-kit",
+  "version": "0.0.0",
+  "authors": [
+    "Michael Chen <miketychen@gmail.com>"
+  ],
+  "directory":"dist/bower_components/",
+  "description": "Starter Kit for quickly creating static websites",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "susy": "~2.2.6"
+  }
+}
