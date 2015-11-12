@@ -15,14 +15,14 @@ gulp.task('sass',function(){
 			errLogToConsole:true
 		}))
 		.pipe(gulp.dest(path.sassOutput));
-})
+});
 
 gulp.task('ejs',function(){
 	gulp.src(path.ejs)
 		.pipe(ejs({msg:"Gulping EJS"}))
         .on('error',gutil.log)
         .pipe(gulp.dest(path.ejsOutput));
-})
+});
 
 gulp.task('watch',function(){
 	gulp.watch([path.sass],['sass']);
