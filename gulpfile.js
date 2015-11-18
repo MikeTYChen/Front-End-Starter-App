@@ -9,7 +9,7 @@ var path = {
 	sassOutput:'public/stylesheets',
 	js:'app/js/*.js',
 	jsOutput:'public/js',
-	ejs:'app/views/**/*.ejs',
+	ejs:'app/views/*.ejs',
 	ejsOutput:'public/views'
 }
 
