@@ -17,5 +17,6 @@
   "dependencies": {
     "susy": "~2.2.6",
     "angular":"latest"
+    
   }
 }
