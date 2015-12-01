@@ -1,17 +1,14 @@
 //===================== modules =====================
-var express = require('express'),
-    bodyParser = require('body-parser');
+var express = require('express');
 var app = express();
 
 //===================== Config =====================
-
-app.use(bodyParser.json()); 
-app.use(bodyParser.json({ type: 'application/vnd.api+json' })); // parse application/vnd.api+json as json
-app.use(bodyParser.urlencoded({ extended: true })); 
-app.use(express.static(__dirname + '/public/dist'));
+app.set('view engine', 'ejs');
+app.set("views", __dirname + '/app/views');
 //===================== Routes =====================
-
-
+app.get('/', function(req, res) {
+	res.render('index');
+});
 //===================== Start ======================
 app.set('port', (process.env.PORT || 5000));
 app.listen(app.get('port'), function() {
