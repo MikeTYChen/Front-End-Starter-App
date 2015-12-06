@@ -15,9 +15,6 @@
     "tests"
   ],
   "dependencies": {
-    "susy": "~2.2.6",
-    "angular":"latest",
-    "bootstrap":"latest"
-    
+    "susy": "~2.2.6"    
   }
 }
